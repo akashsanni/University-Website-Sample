@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="with=device-width, 
+   initial-scale=1.0">
+   <title> University Website Design </title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<section class="sub-header">
+       <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+             <ul>
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="Course.html">COURSE</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i> 
+          </nav>
+          
+          <h1> About Us</h1>
+
+</section>
+
+<!-- -------About Us content------- -->
+
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are The World's Largest University</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aut cumque, in eos quis culpa aperiam quos voluptatem repellendus beatae dicta quae deleniti? Rem adipisci vitae, minima veritatis sapiente corrupti maxime repellat modi eligendi rerum eius expedita, tempora eaque veniam quaerat esse totam deleniti accusamus amet ipsum aut dicta magnam? Enim et necessitatibus inventore eaque laborum ratione. Debitis aspernatur illo, ratione libero molestias neque sed molestiae modi harum inventore voluptas ut sint consequuntur ullam at distinctio maiores ipsum repellat perspiciatis porro sunt delectus error tempore. Dolore temporibus dolores enim magnam eligendi esse fugiat, eum odit maxime quasi repellendus. Porro, nisi.</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="images/about.jpg" alt="this is an image" >
+      </div>
+     </div>
+    
+
+  </section>
+  
+
+     <!-- ------Footer----- -->
+     <section class="footer">
+      <h4> About Us </h4>
+      <p> We are having a team of coders where each and every member
+        is creative<br> ,energetic and ready to take up the new task
+        and we are in the process to <br>learn the new things and are realy
+         working on real world problems.
+      </p>
+        <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Website Designed by<i class="fa-solid fa-heart"></i>Akash Sanni</p>
+     </section>
+
+<!------JavaScript for toggle menu----->
+<script>
+   var navLinks= document.getElementById("navLinks");
+ function showMenu(){
+  navLinks.style.right = "0";
+ }
+ function hideMenu(){
+  navLinks.style.right = "-200px";
+ }
+</script>
+
+
+
+</body>
+</html>

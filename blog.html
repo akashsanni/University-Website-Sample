@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="with=device-width, 
+   initial-scale=1.0">
+   <title> University Website Design </title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<section class="sub-header">
+       <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+             <ul>
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="Course.html">COURSE</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i> 
+          </nav>
+          <h1>Our Certificates & online program for 2022</h1>
+</section>
+<!-----------Blog page Contents----------->
+
+<section class="blog-content">
+  <div class="row">
+  <div class="blog-left">
+    <img src="images/certificate.jpg">
+    <h2>Our Certificates & online program for 2022</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, optio. Et ducimus tempore, aut dolores sunt obcaecati molestias eos ea!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, laudantium laborum voluptatibus consequatur ducimus ut quae recusandae velit officia possimus saepe soluta nemo blanditiis non quaerat tempora? Vel eaque nihil doloribus perferendis eveniet tempora, incidunt temporibus unde laudantium quasi iste rem maiores recusandae assumenda, magni officia adipisci. Ipsam expedita eos eligendi debitis. Repellat reprehenderit repellendus provident maxime beatae reiciendis illo numquam? Minus maxime nemo quia pariatur veritatis neque placeat blanditiis, quam sequi perferendis optio omnis ab consequatur? Aliquid dolores omnis minima ut eius voluptatibus dicta eligendi beatae reprehenderit! Quis accusamus, velit natus ad impedit est inventore nulla commodi reiciendis!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui aut dignissimos minima, nisi libero recusandae asperiores sint, ad voluptatum iste ut possimus repellendus, explicabo ipsa eius? Quasi porro, distinctio vel architecto praesentium dolores unde, quis veritatis, quidem laborum quae assumenda ab eum magnam ex sed quod suscipit ullam voluptatibus?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora magni eaque. Voluptatibus similique quod esse excepturi error ab dolorum! lorem ipsum and all
+    </p>  
+
+    <div class="comment-box">
+
+      <h3>Leave a comment</h3>
+
+      <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment">
+        </textarea>
+        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+      </form>
+    </div>
+
+
+  </div>
+
+  <div class="blog-right">
+    <h3>Post Categories</h3>
+      <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>Data Science</span>
+        <span>28</span>
+      </div>
+      <div>
+        <span>Machine Learning</span>
+        <span>15</span>
+      </div>
+      <div>
+        <span>Computer Science</span>
+        <span>34</span>
+      </div>
+      <div>
+        <span>AutoCAD</span>
+        <span>22</span>
+      </div><div>
+        <span>Journalism</span>
+        <span>23</span>
+      </div>
+      <div>
+        <span>Commerce</span>
+        <span>30</span>
+      </div>
+
+    </div>
+   </div>
+  
+</section>
+
+
+
+  
+
+     <!-- ------Footer----- -->
+     <section class="footer">
+      <h4> About Us </h4>
+      <p> We are having a team of coders where each and every member
+        is creative<br> ,energetic and ready to take up the new task
+        and we are in the process to <br>learn the new things and are realy
+         working on real world problems.
+      </p>
+        <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Website Designed by<i class="fa-solid fa-heart"></i>Akash Sanni</p>
+     </section>
+
+
+
+<!------JavaScript for toggle menu----->
+<script>
+   var navLinks= document.getElementById("navLinks");
+ function showMenu(){
+  navLinks.style.right = "0";
+ }
+ function hideMenu(){
+  navLinks.style.right = "-200px";
+ }
+</script>
+
+
+
+</body>
+</html>
